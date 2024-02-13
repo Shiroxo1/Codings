@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class PassOrNah {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.println("1st Activity");
+        int x = input.nextInt ();
+        System.out.println("2nd Activity");
+        int y = input.nextInt ();
+        System.out.println("3rd Activity");
+        int z = input.nextInt ();
+
+        int sum;
+         sum = x + y + z;
+         double per;
+         per = sum * 0.60;
+         int ave;
+         ave = sum / 3;
+            
+         System.out.println("Your Percentage is: " + per);
+         System.out.println("Your average is: " + ave);
+
+
+
+    }
+}
